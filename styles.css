@@ -1,0 +1,130 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+    ;
+}
+
+.link-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0.25));
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    section {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+        margin: 0;
+    }
+
+    .img-logo{
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+        width: auto;
+        margin-left: auto;
+        text-align: center;
+        
+    }
+    
+    h2{
+        font-size: 30px;
+        line-height: 36px;
+        margin: 10px 0 15px 0;
+        text-align: center;
+    }
+
+    .button-main{
+        margin: 0 auto;
+        display: block;
+    }
+}
